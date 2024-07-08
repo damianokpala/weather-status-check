@@ -1,0 +1,30 @@
+.display-dashboard {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.details {
+  background-color: #20283b;
+  padding: 3rem;
+  border-radius: 7px;
+
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.c-flex {
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+}
+
+.c-flex span:first-child {
+  color: #bbd7ec;
+}
+
+.c-flex span:last-child {
+  font-size: 2.6rem;
+  font-weight: 700;
+}

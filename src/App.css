@@ -1,3 +1,8 @@
 .header {
   min-height: 3.2rem;
 }
+
+.heading-2 {
+  font-size: 3.2rem;
+  margin: 4rem 3rem;
+}

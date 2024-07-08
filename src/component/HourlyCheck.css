@@ -1,0 +1,35 @@
+.check {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+
+  background-color: #20283b;
+  padding: 3rem;
+  border-radius: 7px;
+}
+
+.hourly {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col-1 {
+  display: flex;
+  gap: 1.2rem;
+  flex-direction: column;
+}
+
+.day {
+  font-size: 1.8rem;
+  color: #bbd7ec;
+}
+
+.time {
+  font-size: 2.4rem;
+}
+
+.value {
+  font-size: 4rem;
+  font-weight: 600;
+}
